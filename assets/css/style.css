@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+#hangman {
+    background-color: black;
+    color: gold;
+    padding: 12px;
+    border-bottom: 5px solid orangered;
+    height: 100px;
+    font-size: 70px;
+    text-align: center;
+}
+
+body {
+    background: gold;
+}
+
+.row1 {
+    background: black;
+    color:gold;
+    padding: 30px;
+    margin: 0 0 20px 0;
+    width: 50%;
+    max-width: 960px;
+    height: 90%;
+    float: left;
+}

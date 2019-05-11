@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=cd javascript, initial-scale=1.0">
+    <meta name="viewport">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman GoT Edition</title>
-    <link href="/assets/css/reset.css" rel="stylesheet">
-    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-
+    <!-- <img src="assets/images/Game_of_Thrones_title_card.jpg"> -->
     <div id="hangman"><h1><strong>Hangman Game of Thrones Edition</strong></h1></div>
+    
+  <div class="row1">  
     <div id="characters"></div>     
-    <div id="letters_guessed"></div>
-    <div id="words"></div>
-    <div id="wins"></div>
-    <div id="loses"></div>
-    <script type="text/javascript" src="./assets/javascript/game.js"> </script>
-
+    <div id="song"></div>
+    </div>
+  </div> 
+  
+  <div class="row2"> 
+    <div id="start">Press any key to begin</div>  
+    <div id="names">_ _ _ _</div>
+    <div id="lettersGuessed">Letters Guess</div>
+    <div id="wins">Wins</div>
+    <div id="loses">Losses</div>
+  </div>  
+  <div class="buttons">
+    <button id="start">Start</button>  
+    <button id="restart">Play Again</button>
+  </div> 
+  <script type="text/javascript" src="./assets/javascript/game.js"> </script>
 </body>
 
 
